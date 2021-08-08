@@ -19,7 +19,7 @@ namespace Upload_File
             }
             return returnVal;
         }
-        public bool nameMatch(ref string nameA, ref string nameB, string didYouMean = null)
+        public bool nameMatch(string nameA, string nameB, string didYouMean = null)
         {
             if(nameA.ToLower() == nameB.ToLower())
             {
